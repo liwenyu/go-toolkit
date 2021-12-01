@@ -17,7 +17,7 @@ func TestIniConfig(t *testing.T) {
 	appConfig := fmt.Sprintf("%s/%s", dir, "app.conf")
 	conf, err := NewIniConfig(appConfig)
 	if err != nil {
-		t.Error(err.Error())
+		t.Error("error", err.Error())
 		return
 	}
 
