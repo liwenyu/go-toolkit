@@ -1,4 +1,4 @@
-module go-toolkit
+module github.com/liwenyu/go-toolkit
 
 go 1.16
 
