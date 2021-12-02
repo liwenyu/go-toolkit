@@ -13,14 +13,13 @@ Golang language commonly used toolkit
 go get github.com/liwenyu/go-toolkit
 ```
 
-## Project Layout
+## Function list
 
-```
-.
-├── files       File operations
-├── algo        Encryption Algorithm
-├── http        HTTP protocol class, such as initiating a get, post request      
-├── json        json operation
-├── xml         xml operation
-├── cache       Cache
-```
+- algo Encryption Algorithm
+    - Md5() Implement md5 encryption
+    - Md516bit() Implement md5 encryption, return 16 bits
+- config Configuration file operation
+    - NewIniConfig .conf single-line configuration file operation
+- curl curl operation
+    - Get Implement get request
+    - Post Implement post request
